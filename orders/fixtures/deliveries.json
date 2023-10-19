@@ -1,0 +1,22 @@
+[
+{
+  "model": "orders.deliver",
+  "pk": 1,
+  "fields": {
+    "title": "Обычная доставка",
+    "price": "200.00",
+    "free_threshold": "2000.00",
+    "is_express": false
+  }
+},
+{
+  "model": "orders.deliver",
+  "pk": 2,
+  "fields": {
+    "title": "Экспресс доставка",
+    "price": "500.00",
+    "free_threshold": null,
+    "is_express": true
+  }
+}
+]

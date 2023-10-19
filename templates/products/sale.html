@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="Middle">
+    <div class="wrap">
+        <div class="Article">
+            <ul>
+                {% if offers %}
+                    {% for offer in offers %}
+                        <li>
+                            <h3 class="modal-title">{{ offer.description }}</h3>
+                            <p>С {{ offer.date_start|date:"d.m.Y" }} по {{ offer.date_end|date:"d.m.Y" }}</p>
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    <h3 class="modal-title">Скидок пока нет.</h3>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

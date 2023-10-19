@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="Middle Middle_top">
+        <div class="Section">
+            <div class="wrap">
+                <form class="form Payment" action="{% url 'orders:payment' %}" method="post">
+                    <div class="Payment-card">
+                        <div class="form-group">
+                            <label class="form-label">Номер карты</label>
+                            {% csrf_token %}
+                            {{ form.card_number }}
+                        </div>
+                    </div>
+                    <div class="Payment-pay"><button class="btn btn_primary" type="submit">Оплатить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

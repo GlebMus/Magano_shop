@@ -1,0 +1,236 @@
+[
+  {
+    "model": "products.productimage",
+    "pk": 1,
+    "fields": {
+      "product": 3,
+      "title": "32\" Телевизор Xiaomi E32S Pro 2019 LED, HDR CN, черный",
+      "image": "images/products/orig.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 13,
+    "fields": {
+      "product": 9,
+      "title": "RICOH GR IIIx Urban Edition",
+      "image": "images/products/RICOH_GR_IIIx_Urban_Edition.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 14,
+    "fields": {
+      "product": 13,
+      "title": "Monsher MMH 2050",
+      "image": "images/products/Monsher_MMH_2050_e5LZwnO.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 15,
+    "fields": {
+      "product": 14,
+      "title": "MARTA MT-1512",
+      "image": "images/products/MARTA_MT-1512.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 16,
+    "fields": {
+      "product": 22,
+      "title": "Наручные часы Casio A-159W-N1D",
+      "image": "images/products/Наручные_часы_Casio_A-159W-N1D.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 17,
+    "fields": {
+      "product": 7,
+      "title": "Настольные настенные электронные часы с календарем, термометром и функцией будильника с розовой подсветкой",
+      "image": "images/products/Настольные_настенные_часы.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 18,
+    "fields": {
+      "product": 4,
+      "title": "Наушники Audio-Technica ATH-M70X, black",
+      "image": "images/products/downloadНаушники_Audio-Technica_ATH-M70X_black.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 19,
+    "fields": {
+      "product": 21,
+      "title": "Светильник торшер напольный",
+      "image": "images/products/Светильник_торшер_напольныи_.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 20,
+    "fields": {
+      "product": 5,
+      "title": "Стиральная машина Indesit IWSD 51051, белый",
+      "image": "images/products/Indesit_IWSD_51051.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 21,
+    "fields": {
+      "product": 17,
+      "title": "Телефон SATREND К8, Dual nano SIM, синий",
+      "image": "images/products/Телефон_SATREND_К8_Dual_nano_SIM_синии.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 22,
+    "fields": {
+      "product": 19,
+      "title": "Торшер EGLO Hornwood 43048",
+      "image": "images/products/Торшер_EGLO_Hornwoodwebp.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 23,
+    "fields": {
+      "product": 20,
+      "title": "Торшер светильник 60Вт классика",
+      "image": "images/products/Торшер_светильник_60Вт_классика.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 24,
+    "fields": {
+      "product": 10,
+      "title": "Фотоаппарат для детей/Kids Camera/Малиновый",
+      "image": "images/products/Фотоаппарат_для_детеиKids_CameraМалиновыи.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 25,
+    "fields": {
+      "product": 8,
+      "title": "Фотоаппарат Canon EOS R8 Body, черный",
+      "image": "images/products/Фотоаппарат_Canon_EOS_R8_Body_черныи.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 27,
+    "fields": {
+      "product": 25,
+      "title": "InfinixNOTE30i_2",
+      "image": "images/products/Infinix_NOTE_30i_8256_ГБ.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 28,
+    "fields": {
+      "product": 26,
+      "title": "SamsungGalaxyA54",
+      "image": "images/products/SamsungGalaxyA54.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 29,
+    "fields": {
+      "product": 12,
+      "title": "Nokia 106 (2018), 2 SIM, темно-серый",
+      "image": "images/products/Nokia_106_2018.webp"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 30,
+    "fields": {
+      "product": 6,
+      "title": "Стиральная машина Indesit MSC 615, белый",
+      "image": "images/products/Стиральная_машина_Indesit_MSC_615_белыи.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 31,
+    "fields": {
+      "product": 16,
+      "title": "Манжета люка",
+      "image": "images/products/Манжета_люка.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 32,
+    "fields": {
+      "product": 11,
+      "title": "Петля мебельная HETTICH Sensys Германия 8645i 110*",
+      "image": "images/products/Петля_мебельная_HETTICH_Sensys_Германия_8645i_110.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 33,
+    "fields": {
+      "product": 18,
+      "title": "Фурнитура сумочная пластик TC31",
+      "image": "images/products/Фурнитура_сумочная_.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 34,
+    "fields": {
+      "product": 15,
+      "title": "Шланг заливной для стиральной машины 3м ТР-Сантехника",
+      "image": "images/products/Шланг_заливнои_для_стиральнои_машины_3м_ТР-Сантехника.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 37,
+    "fields": {
+      "product": 24,
+      "title": "iPhone14Plus_1",
+      "image": "images/products/iPhone14Plus_2.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 38,
+    "fields": {
+      "product": 24,
+      "title": "iPhone14Plus_2",
+      "image": "images/products/download.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 39,
+    "fields": {
+      "product": 26,
+      "title": "SamsungGalaxyA54_1",
+      "image": "images/products/SamsungGalaxyA54_1.jpeg"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 40,
+    "fields": {
+      "product": 23,
+      "title": "Смартфон Xiaomi POCO F5 Pro 12/256 ГБ",
+      "image": "images/products/Смартфон_Xiaomi_POCO_F5_Pro_12256_ГБ.jpg"
+    }
+  }
+]

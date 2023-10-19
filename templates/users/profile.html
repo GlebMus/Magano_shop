@@ -1,0 +1,58 @@
+{% extends "users/base-account.html" %}
+
+{% block account_section %}
+    <div class="Section-content">
+        <div class="Profile">
+            <form class="form Profile-form"
+                  action="{% url 'users:profile' pk=user.pk %}"
+                  method="post"
+                  enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="row">
+                    <div class="row-block">
+                        <div class="form-group">
+                            <label class="form-label" for="avatar">Аватар
+                            </label>
+                            <div class="Profile-avatar">
+                                <div class="Profile-img"><img src="{{ user.image.url }}" alt="card.jpg"/></div>
+                                <label class="Profile-fileLabel" for="{{ form.image.id_for_label }}"></label>
+                                {{ form.image }}
+                            </div>
+                            {% if form.image.errors %}
+                                <p>{{ form.image.errors }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="row-block">
+                        <div class="form-group">
+                            {{ form.full_name.label_tag }}
+                            {{ form.full_name }}
+                            {% if form.full_name.errors %}
+                                <p>{{ form.full_name.errors }}</p>
+                            {% endif %}
+                        </div>
+                        <div class="form-group">
+                            {{ form.phone.label_tag }}
+                            {{ form.phone }}
+                            {% if form.phone.errors %}
+                                <p>{{ form.phone.errors }}</p>
+                            {% endif %}
+                        </div>
+                        <div class="form-group">
+                            {{ form.email.label_tag }}
+                            {{ form.email }}
+                            {% if form.email.errors %}
+                                <p>{{ form.email.errors }}</p>
+                            {% endif %}
+                        </div>
+                        <div class="form-group">
+                            <div class="Profile-btn">
+                                <button type="submit" class="btn btn_success">Сохранить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}
